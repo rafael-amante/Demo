@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 This is my fanother commit!
+=======
+This is again a commit!
+>>>>>>> feature
 
 And here we go with commit #2!
