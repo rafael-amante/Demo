@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+    <title>Projeto Quizz</title>
+  </head>
+  <body>
+    <h1>Javascript Quizz</h1>
+    <h2>Introdução</h2>
+    <p>
+      JavaScript é uma linguagem de programação amplamente usada para
+      desenvolver páginas de web interativas. Criada em 1995, é uma linguagem de
+      alto nível, dinâmica e baseada em eventos, permitindo manipular o conteúdo
+      HTML e CSS de forma eficiente. Atualmente, é utilizada tanto no frontend
+      (com frameworks como React e Vue.js) quanto no backend (com Node.js). A sua
+      versatilidade e ampla adoção a tornam essencial para o desenvolvimento web
+      moderno.
+    </p>
+    <h2>Quizz</h2>
+    <div class="quiz-container">
+      <p id="question"></p>
+      <ul id="options"></ul>
+      <button id="next-btn">Next</button>
+      <p id="result"></p>
+    </div>
+    <h2 id="tituloLinks">Links para os basicos de Javascript</h2>
+    <button id="toggleBtn" onclick="toggleContent(this)">Clica aqui para ver os links</button>
+    <div id="javaLinks" class="button-container">
+<p><a href="https://www.w3schools.com/js/">W3schools</a></p>
+<p><a href="https://javascript.info/first-steps">The Modern Javascript Tutorial</a></p>
+    </div>
+  </body>
+</html>
