@@ -25,6 +25,10 @@ button {
     cursor: pointer;
 }
 
+li {
+    list-style: none;
+}
+
 #toggleBtn {
     font-size: 16px;
     padding: 5px 10px;

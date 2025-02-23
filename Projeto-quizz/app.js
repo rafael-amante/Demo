@@ -37,7 +37,12 @@ function loadQuestion() {
             optionsElement.appendChild(li);
         });
     } else {
-        resultElement.innerText = `You scored ${score} out of ${quiz.length}! 🎉`;
+        if (score === 0) {
+            resultElement.innerText = `Oops! Não acertaste nenhuma. É melhor estudares mais um pouco! 😢`;
+        } else {
+
+        resultElement.innerText = `Acertaste ${score} de ${quiz.length}! 🎉`;
+        }
         nextButton.style.display = "none";
     }
 }
