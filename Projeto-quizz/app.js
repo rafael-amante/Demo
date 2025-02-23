@@ -1,5 +1,6 @@
+
+
 const quiz = [
-    //Quizz
     
     {
         question: "What is the correct way to declare a variable in JavaScript?",
