@@ -11,32 +11,50 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <script src="app.js" defer></script>
-    <title>Projeto Quizz</title>
+    <title>Project Quiz</title>
   </head>
   <body>
-    <h1>Javascript Quizz</h1>
-    <h2>Introdução</h2>
+    <header>
+      <ul>
+        <li>Home</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li id="search-container">
+          <input type="text" id="search-input" placeholder="Enter search query...">
+          <button id="search-btn">Search</button>
+        </li>
+      </ul>
+    </header>
+    <h1>Javascript Quiz</h1>
+    <h2>Introduction</h2>
     <p>
-      JavaScript é uma linguagem de programação amplamente usada para
-      desenvolver páginas de web interativas. Criada em 1995, é uma linguagem de
-      alto nível, dinâmica e baseada em eventos, permitindo manipular o conteúdo
-      HTML e CSS de forma eficiente. Atualmente, é utilizada tanto no frontend
-      (com frameworks como React e Vue.js) quanto no backend (com Node.js). A sua
-      versatilidade e ampla adoção a tornam essencial para o desenvolvimento web
-      moderno.
+      JavaScript is a widely used programming language for developing
+      interactive web pages. Created in 1995, it is a high-level, dynamic, and
+      event-driven language that allows efficient manipulation of HTML and CSS
+      content. Nowadays, it is used both on the frontend (with frameworks like
+      React and Vue.js) and on the backend (with Node.js). Its versatility and
+      widespread adoption make it essential for modern web development.
     </p>
-    <h2>Quizz</h2>
+    <h2>Quiz</h2>
     <div class="quiz-container">
       <p id="question"></p>
       <ul id="options"></ul>
       <button id="next-btn">Next</button>
       <p id="result"></p>
     </div>
-    <h2 id="tituloLinks">Links para os basicos de Javascript</h2>
-    <button id="toggleBtn" onclick="toggleContent(this)">Clica aqui para ver os links</button>
+    <h2 id="tituloLinks">Links for the basics of JavaScript</h2>
+    <button id="toggleBtn" onclick="toggleContent(this)">
+      Click here to see the links
+    </button>
     <div id="javaLinks" class="button-container">
-<p><a href="https://www.w3schools.com/js/">W3schools</a></p>
-<p><a href="https://javascript.info/first-steps">The Modern Javascript Tutorial</a></p>
+      <p><a href="https://www.w3schools.com/js/">W3schools</a></p>
+      <p>
+        <a href="https://javascript.info/first-steps"
+          >The Modern Javascript Tutorial</a
+        >
+      </p>
     </div>
   </body>
+  <footer>Copyright @ RRE 2025</footer>
 </html>

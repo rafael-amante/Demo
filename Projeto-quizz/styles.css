@@ -1,66 +1,135 @@
 body {
   background-color: rgb(0, 0, 128);
   color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(23, 180, 247);
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+header li {
+  margin: 20px;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 5px 0;
+  }
+
+  header ul {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header li {
+    font-size: 20px;
+    margin: 5px 5px;
+    
+  }
+}
+
+#search-container {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+#search-input {
+  margin-left: 5px;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+#search-btn {
+  padding: 1px;
+  margin-left: auto;
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 52px;
   text-align: center;
 }
 
 h2 {
-    text-align: center;
+  font-size: 35px;
+  text-align: center;
 }
 
 p {
-    font-size: 17px;
-    margin: 10px 0;
+  font-size: 19px;
+  margin: 10px 10px;
 }
 
 button {
-    font-size: 16px;
-    padding: 2px 5px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  font-size: 16px;
+  padding: 2px 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 40px;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 #toggleBtn {
-    font-size: 16px;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    display: block; 
-    margin: 20px auto;
-  }
+  font-size: 16px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 20px auto;
+}
 
 #javaLinks {
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s, opacity 0.5s ease-in-out;
-   text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease-in-out;
+  text-align: center;
 }
 
 #javaLinks p {
-    margin: 10px 0;
-  }
-  
-  #javaLinks a:hover {
-    color: rgb(255, 165, 0);
-  }
+  margin: 10px 0;
+}
+
+#javaLinks a:hover {
+  color: rgb(255, 165, 0);
+}
 
 #javaLinks.visible {
-    visibility: visible;
-    opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }
 
 a {
   color: rgb(24, 232, 13);
   text-decoration: none;
+}
+
+.quiz-container {
+  font-size: 19px;
+}
+
+footer {
+  font-size:25px ;
+  bottom: 0;
+  margin-left: 10px;
 }
